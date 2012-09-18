@@ -1,0 +1,26 @@
+/* Make all profile images hidden */
+.profile-picture, .avatar {
+	border-radius: 100px;
+}
+
+/* Hide the sidebar */
+.dashboard {
+	display: none;
+}
+
+/* Center the main content */
+.profile-card, .content-main {
+	float: left;
+}
+
+.page-container {
+	width: 520px;
+}
+
+/* Show settings sidebar! */
+.wrapper-settings .dashboard {
+	display: block;
+}
+
+/* Hide promoted Tweets! */
+/* TODO */
