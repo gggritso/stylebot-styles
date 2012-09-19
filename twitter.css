@@ -3,24 +3,25 @@
 	border-radius: 100px;
 }
 
-/* Hide the sidebar */
-.dashboard {
-	display: none;
+/* Hide bad sidebar modules and extra elements */
+.site-footer, .wtf-module,
+.mini-profile, .trends,
+.enhanced-media-thumbnails, .profile-nav,
+[data-component-term="profile_tweetbox"] {
+	display:none;
 }
 
 /* Center the main content */
-.profile-card, .content-main {
-	float: left;
+.wrapper {
+	width: 522px;
 }
 
-.page-container {
-	width: 520px;
-}
-
-/* Show settings sidebar! */
-.wrapper-settings .dashboard {
-	display: block;
+/* Center visible sidebar elements */
+.dashboard, .module {
+	width: 100%;
 }
 
 /* Hide promoted Tweets! */
-/* TODO */
+.promoted-tweet {
+	display: none;
+}
