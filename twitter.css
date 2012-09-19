@@ -1,4 +1,4 @@
-/* Make all profile images hidden */
+/* Make all profile images portholes */
 .profile-picture, .avatar {
 	border-radius: 100px;
 }
@@ -16,7 +16,7 @@
 	width: 522px;
 }
 
-/* Center visible sidebar elements */
+/* Center, stretch visible sidebar elements */
 .dashboard, .module {
 	width: 100%;
 }
